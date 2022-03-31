@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SatelliteController!{% endblock %}
+
+{% block body %}
+    <section>
+        <div class="container">
+            <div class="row register pt-5">
+            <h1 class="text-center">Ajouter un satellite</h1>
+            {{form(addForm)}}
+        </div>
+        </div>
+    </section>
+{% endblock %}

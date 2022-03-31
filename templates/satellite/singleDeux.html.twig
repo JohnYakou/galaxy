@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+<section class="fullmoon">
+<h1 class="text-center text-danger">{{satellite.nom}}</h1>
+
+<div class="container">
+
+  <div class="card mb-3">
+    <img src="{{satellite.photo}}" class="card-img-top"/>
+
+
+    <div class="card-body">
+      <h5 class="card-title text-center">Superficie : {{satellite.superficie}}</h5>
+      <p class="card-text text-center">Planète : {{satellite.planete}}</p>
+    </div>
+  </div>
+  </section>
+{% endblock %}

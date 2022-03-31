@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Tous les satellites{% endblock %}
+
+{% block body %}
+
+<section class="universe">
+    <div class='container'>
+        <h1 class="text-center text-white">Les satellites</h1>
+
+        <div class="row mt-5">
+            {% for satellite in satellite %}
+                <div class="card col-md-3 mx-2 mt-3" style="width:19rem">
+                    <img class="card-img-top" style="height:350px" src="{{satellite.photo}}">
+
+                    <div class="card-body">
+                        <h5 class="text-center card-title">{{satellite.nom}}</h5>
+
+                        <a class="btn btn-primary voir" href="{{path('app_single2_dangan', {id:satellite.id})}}">Voir</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

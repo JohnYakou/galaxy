@@ -1,0 +1,19 @@
+/* planet/all.html.twig */
+.voir {
+  margin-left: 40%;
+}
+
+.universe{
+    background-image: url(https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.space{
+  background-image:url(https://img.purch.com/rc/1280x800/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA0MC82OTgvb3JpZ2luYWwvZGVlcC1zcGFjZS1sYS1zaWxsYS0xOTIwLmpwZw==);
+}
+
+.carousel{
+  height: 40rem;
+  width: 100%;
+}
