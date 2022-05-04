@@ -18,11 +18,12 @@
                         <h5 class="text-center card-title">{{planets.superficie}}</h5>
                         <h5 class="text-center card-title">{{planets.type}}</h5>
 
-                        <a class="btn btn-primary voir" href="{{path('app_single_planet', {id:planets.id})}}">Voir</a>
+                        <a class="btn btn-primary text-center voir" href="{{path('app_single_planet', {id:planets.id})}}">Voir</a>
                     </div>
                 </div>
             {% endfor %}
         </div>
     </div>
+    <br>
 </section>
 {% endblock %}
