@@ -4,7 +4,7 @@
 }
 
 .universe {
-  background-image: url(https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80);
+  background-image: url(https://cdn.wallpapersafari.com/10/63/9enofj.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18,11 +18,53 @@
   width: 100%;
 }
 
-.row{
+.row {
   display: flex;
   justify-content: space-evenly;
 }
 
-strong{
+strong {
   text-decoration: overline;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  color: #4b0081;
+}
+
+/* LES COULEURS DES CARDS */
+.card:nth-child(1){
+  background: #cba65b;
+}
+
+.card:nth-child(2){
+  background: #46769e;
+}
+
+.card:nth-child(3){
+  background: #f27d47;
+}
+
+.card:nth-child(4){
+  background: #67374a;
+}
+
+.card:nth-child(5){
+  background: #7a6549;
+}
+
+.card:nth-child(6){
+  background: #7cdefe;
+}
+
+.card:nth-child(7){
+  background: #2057b8;
+}
+
+.card:nth-child(8){
+  background: #beb3a1;
 }
