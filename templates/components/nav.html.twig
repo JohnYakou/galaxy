@@ -1,18 +1,18 @@
 <nav class="navbar navbar-expand-lg navbar bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand nav-link" href="{{path('app_home')}}"><i class="fa-solid fa-house"></i></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
         <li class="nav-item">
-          <a class="nav-link" href="{{path('app_all_planet')}}">Toutes les planètes</a>
+          <a class="nav-link" href="{{path('app_all_planet')}}">Planètes du système solaire</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="{{path('app_all_satellite')}}">Touts les satellites</a>
+          <a class="nav-link" href="{{path('app_all_satellite')}}">Principaux satellites</a>
         </li>
 
         {% if is_granted('ROLE_ADMIN') %}

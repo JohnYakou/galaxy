@@ -1,10 +1,10 @@
 /* planet/all.html.twig */
 .voir {
-  margin-left: 40%;
+  margin-left: 35%;
 }
 
 .universe {
-  background-image: url(https://cdn.wallpapersafari.com/10/63/9enofj.jpg);
+  background-image: url(https://browsecat.net/sites/default/files/universe-desktop-background-129356-590694-8992405.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -36,41 +36,49 @@ strong {
   color: #4b0081;
 }
 
+/* Pour les "trois traits" pour format mobile */
+.navbar-toggler{
+  background: white;
+}
+
 /* LES COULEURS DES CARDS */
 .card-planet:nth-child(1){
-  background: #cba65b;
+  background: #eaad65;
 }
 
 .card-planet:nth-child(2){
-  background: #46769e;
+  background: #b16b15;
 }
 
 .card-planet:nth-child(3){
-  background: #f27d47;
+  background: #46769e;
 }
 
 .card-planet:nth-child(4){
-  background: #67374a;
+  background: #f27d47;
 }
 
 .card-planet:nth-child(5){
-  background: #7a6549;
+  background: #67374a;
 }
 
 .card-planet:nth-child(6){
-  background: #7cdefe;
+  background: #7a6549;
 }
 
 .card-planet:nth-child(7){
-  background: #2057b8;
+  background: #7cdefe;
 }
 
 .card-planet:nth-child(8){
-  background: #beb3a1;
+  background: #2057b8;
+}
+
+.card-planet:nth-child(9){
+  background:#4d1712 ;
 }
 
 /* LES COULEURS DES CARDS SATELLITES */
-
 .card-satellite:nth-child(1){
   background: #b7a095;
 }
@@ -92,9 +100,17 @@ strong {
 }
 
 .card-satellite:nth-child(6){
-  background: #d1c6c6;
+  background: #6d635e;
 }
 
 .card-satellite:nth-child(7){
   background: #e0c1cd;
+}
+
+.card-satellite:nth-child(8){
+  background: #3c3f35;
+}
+
+.card-satellite:nth-child(9){
+  background: #8394a4;
 }
